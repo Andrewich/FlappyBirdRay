@@ -5,11 +5,11 @@ Build
 -----
 
 ```
-conan install . --output-folder=build --build=missing --conf=tools.env.virtualenv:powershell=True
+conan install . --output-folder=build -s build_type=Debug --build=missing
 cd build
 # conanbuild.ps
 cmake .. -G "Visual Studio 16 2019" -DCMAKE_TOOLCHAIN_FILE="conan_toolchain.cmake"
-cmake --build . --config Release
+cmake --build . --config Debug
 ```
 
 Links
