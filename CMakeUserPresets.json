@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "C:\\Users\\maks\\Sources\\FlappyBirdRaylib\\build\\CMakePresets.json"
+    ]
+}

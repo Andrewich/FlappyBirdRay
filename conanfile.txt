@@ -1,0 +1,9 @@
+[requires]
+raylib/5.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+raylib/5.0:opengl_version=2.1
